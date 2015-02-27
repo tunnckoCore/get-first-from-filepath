@@ -1,6 +1,6 @@
 ## [![npm][npmjs-img]][npmjs-url] [![mit license][license-img]][license-url] [![build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url] [![deps status][daviddm-img]][daviddm-url]
 
-> Get the very first directory name from file path `./foo/bar/baz` -> `foo` or `../a/b/c` -> `../a`
+> Get the very first directory name from file path `./foo/bar/baz` -> `foo` or `../a/b/c` -> `../a` Useful when you just want first real directory from given file path
 
 ## Install
 ```
