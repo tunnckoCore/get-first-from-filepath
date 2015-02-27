@@ -1,7 +1,7 @@
 {
   "name": "get-first-from-filepath",
   "version": "0.0.0",
-  "description": "Get the very first directory name from file path `./foo/bar/baz` -> `foo` or `../a/b/c` -> `../a`",
+  "description": "Get the very first directory name from file path `./foo/bar/baz` -> `foo` or `../a/b/c` -> `../a`. Useful when you just want first real directory from given file path",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline",
     "test": "mocha",
@@ -17,7 +17,17 @@
     "type": "git",
     "url": "git://github.com/tunnckoCore/get-first-from-filepath.git"
   },
-  "keywords": [],
+  "keywords": [
+    "file",
+    "filepath",
+    "first",
+    "fp",
+    "get",
+    "path",
+    "relative",
+    "util",
+    "utils"
+  ],
   "license": {
     "type": "MIT",
     "url": "https://github.com/tunnckoCore/get-first-from-filepath/blob/master/license.md"
