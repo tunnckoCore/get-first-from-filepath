@@ -14,10 +14,22 @@ npm test
 
 ```js
 var getFirstFromFilepath = require('get-first-from-filepath');
+
+getFirstFromFilepath('foo/bar/baz');
+//=> 'foo'
+
+getFirstFromFilepath('/foo/bar/baz');
+//=> 'foo'
+
+getFirstFromFilepath('./foo/bar/baz');
+//=> 'foo'
+
+getFirstFromFilepath('../foo/bar/baz');
+//=> '../foo'
+
+getFirstFromFilepath('..foo/bar/baz');
+//=> '..foo'
 ```
-
-
-## API / CLI
 
 
 ## Author
