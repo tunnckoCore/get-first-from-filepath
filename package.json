@@ -1,6 +1,6 @@
 {
   "name": "get-first-from-filepath",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the very first directory name from file path `./foo/bar/baz` -> `foo` or `../a/b/c` -> `../a`. Useful when you just want first real directory from given file path",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline",
